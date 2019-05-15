@@ -1,0 +1,168 @@
+.col-4
+{
+  width:30%
+}
+.col-6{
+  width:58%;
+}
+  
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    margin:10px;
+  }
+  /* div{
+      border :1px solid red;
+  } */
+
+  
+  #container
+  {
+      width:60%;
+      margin:auto;
+      padding:15px;
+      /* position: absolute; */
+  }
+ 
+#profileImage
+{
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin: 30px;
+  position:absolute;
+  bottom: 0px;
+}
+#profilePic
+{
+  height: inherit;
+  width: inherit;
+  border-radius:inherit;
+  position: absolute;
+}
+#userIntro
+{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+label#name
+{
+  display: block;
+  margin: 2px;
+}
+#editpostButton
+{
+  position:absolute;
+}
+div#coverBox {
+  height:200px;
+  position:relative;
+  background-image: url('../../images/photo-1500835556837-99ac94a94552.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 2px;
+}
+/* .customButton
+{
+  background-color:darkgray;
+  padding:8px;
+  width:100px;
+  text-align:center;
+  font-family:cursive;
+  border:1px solid black;
+ 
+} */
+.innerCustomButton
+{
+  background-color: lightgray;
+  padding:1px;
+  border:1px solid black;
+  width:30px;
+}
+#editPostButton
+{ 
+width: max-content;
+bottom: 10%;  
+position: absolute; 
+right: 1%;
+}
+.socialBox {
+  height: 40px;
+  margin-top: 10px;
+  background-color: #b5b569;
+  position: relative;
+}
+div#followButton {
+  width: min-content;
+  position: absolute;
+  top: 2%;
+  margin: 5px;
+  padding: 5px;
+}
+div#socialMediaLinks {
+  width: 25%;
+  padding: 5px;
+  top: 5%;
+  right: 2%;
+  position: absolute;
+  margin: 5px;
+}
+div#socialMediaLinks i{
+  margin-top: 2%;
+  display: inline-block;
+  margin-left: 20%;
+}
+.navTab {
+  margin-top: 10px;
+  position: relative;
+  height: 50px;
+}
+div#writePostButton {
+  position: absolute;
+  margin: 2px;
+  top: 10%;
+  right: 1%;
+  width: max-content;
+  padding: 5px;
+}
+.navLinkList
+{position: absolute;
+  width: max-content;
+  margin: 5px;
+}
+ol{
+  margin: 0px; 
+  padding: 0px;
+}
+.navLinks
+{
+  float:left;
+  color:white;
+  font-family:sans-serif;
+  background-color:blue;
+  list-style-type:none;
+  padding:5px;
+  border-right:2px solid black;
+ border-bottom:5px solid lightseagreen; 
+ border-top:5px solid blue;
+}
+.l1
+{
+  border:5px solid lightseagreen;
+  border-bottom: 5px solid blue;
+}
+
+#postDisplay
+{
+  clear:both;
+height:200px;
+
+}
+#postDisplay
+{
+  position: relative;
+  margin-top: 10px;
+
+}

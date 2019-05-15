@@ -1,0 +1,1 @@
+<cfset loginComponentObject=CreateObject("component","demoProject.Component.registerComponent")/>

@@ -1,0 +1,76 @@
+*{
+    box-sizing:border-box;
+}
+.main-container
+{
+    width:60%;
+    margin:auto;
+
+    padding:2px;
+    border:1px solid black;
+    box-shadow: 1px 0px 20px 0px #7699bd;
+}
+/* div
+{
+    border:1px solid red;
+} */
+
+.modal-header
+{
+    
+    width:100%;
+    padding:30px;
+    background-color: #7699bd;;
+
+}
+.modal-footer
+{
+    
+    width:100%;
+    padding:10px;
+    background-color:#7699bd;;
+
+}
+#modal-body
+{
+    position:relative;
+}
+#input-box
+{
+   float:left;
+    top:0px;
+    margin:10px;
+    
+}
+#title
+{
+    display:block;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+#select-box
+{
+    float:left;
+    top:0px;
+    margin:10px;
+
+}
+textarea
+{
+    margin: 14px;
+    width: 769px;
+    height: 287px;
+}
+
+
+#category-list
+{
+  padding:11px;
+    
+}
+.error
+{
+  color: red;
+  font-weight: 500;
+  font-family: Roboto,Arial,sans-serif;
+}
